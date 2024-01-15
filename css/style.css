@@ -87,9 +87,15 @@ h4
 }
 h5
 {
-    padding: 0.5rem 1rem;
-    letter-spacing: 0.5px;
+    padding: 0 1rem;
     font-size:1rem;
+}
+h6
+{
+    padding:1rem;
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--dark);
 }
 p
 {
@@ -233,10 +239,33 @@ b
 /*
     law css --------------------------------
 */
+#law
+{
+    background: transparent;
+}
+#law #search #bar
+{
+    display:block;
+    width:80%;
+    margin:auto;
+    padding:1rem;
+    text-align:center;
+    font-size:1rem;
+    background:transparent;
+    border:1px dotted var(--black);
+}
+#law #search #bar:focus
+{
+    /* position:fixed; */
+    /* top:0; */
+    border:none;
+    border-bottom:1px solid var(--black);
+}
 details
 {
-    background: var(--light);
-    margin: 1rem;
+    max-width:900px;
+    margin: 1rem auto;
+    background: var(--white);
 }
 summary
 {
@@ -244,23 +273,23 @@ summary
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    background: var(--black);
+    background: var(--light);
 }
 summary .section
 {
     font-weight: bold;
     text-transform:uppercase;
-    color: var(--light);
+    color: var(--black);
 }
 summary .title
 {
-    color: var(--white);
+    color: var(--dark);
     text-transform:capitalize;
-    font-size: large;
+    font-size: 1rem;
 }
 details .define
 {
-    padding: 1rem;
+    padding: 2rem 0;
 }
 /*
     footer css -----------------------------
