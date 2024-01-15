@@ -16,7 +16,9 @@
         | style |
         ---------
     -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 <body>
     <!--
@@ -75,7 +77,7 @@
             [ Require section ]-----------------------------------------------------
             ===================
         -->
-        <section id="role">
+        <section id="require">
             <div class="container">
                 <div class="row">
                     <!-- ( role point list ) -->
@@ -132,11 +134,61 @@
             </div>
         </section>
         <!--
-            ==================
-            [  section ]-----------------------------------------------------
-            ==================
+            =====================
+            [ Copyright section ]-----------------------------------------------------
+            =====================
         -->
-        <section id=""></section>
+        <section style="display:none !important" id="copyright">
+            <div class="container">
+
+                <div class="heading">
+                    <h2> CopyRight Law </h2>
+                    <h4>  </h4>
+                </div>
+
+                <div class="row">
+
+                    <div class="col">
+
+                        <p> Copyright law grants the creator of an original work exclusive rights to its use and distribution. This protection applies to various forms of creative expression, including literature, music, art, and software. The purpose is to encourage innovation and creativity by providing creators with control over how their work is used and by enabling them to benefit financially. </p>
+
+                        <p> Key aspects of copyright law typically include the exclusive rights to reproduce, distribute, perform, display, and create derivative works based on the original. Copyright protection is automatic upon the creation of a qualifying work, and it generally lasts for the life of the creator plus a certain number of years. </p>
+
+                        <h5> Explicit Copyright </h5>
+
+                        <p> This is the default form of copyright protection that automatically applies to an original work as soon as it is created. The creator doesn't need to register the work or include a copyright notice for it to be protected. Explicit copyright provides the creator with exclusive rights to use and distribute the work. </p>
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--
+            ===============
+            [ law section ]-----------------------------------------------------
+            ===============
+        -->
+        <section id="law">
+            <div class="container">
+            <!-- { serach bar } -->
+            <div class="heading" id="search">
+                <input type="search" id="bar" placeholder="Search Cyber Law Section" />
+            </div>
+
+            <div id="act_container">
+                <!--
+                -   target by id #act
+                -   set detailLayout with js
+                -   fetch law data inside layout 
+                -->
+            </div>
+
+            </div>
+        </section>
         <!--
             ==================
             [ footer section ]-----------------------------------------------------
@@ -145,7 +197,7 @@
         <footer id="footer">
             <div class="container">
                 
-                <div class="copy"> CyberLaw &copy; Designed | Developed by <a href="https://mastermayank.w3spaces.com/"> Mayank </a> </div>        
+                <div class="copy"> CyberLaw &copy; website _ Designed | Developed by <a href="https://mastermayank.w3spaces.com/"> Mayank </a> </div>        
 
             </div>
         </footer>
@@ -157,6 +209,7 @@
         ----------
     -->
     <script src="js/lawData.js"></script>
+    <script src="js/detailLayout.js"></script>
     <script src="js/script.js"></script>
 
 </body>
