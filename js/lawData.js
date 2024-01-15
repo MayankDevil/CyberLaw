@@ -42,6 +42,136 @@ try
         ];
     var CyberLawData = [
         {
+            section : `1`,
+            title : `Short title, extent, commencement, and application`,
+            define : (`
+                <h5> Short Title </h5>
+                <p> This section provides the official short name or title by which the Act can be referred to, making it easier for people to identify and cite. </p>
+                
+                <h5> Extent </h5>
+                <p> It specifies the geographical scope or the areas where the provisions of the Act are applicable. This indicates the jurisdiction to which the law applies. </p> 
+                
+                <h5> Commencement </h5>
+                <p> This part indicates the date on which the Act comes into effect, marking the beginning of its legal validity. </p>
+                
+                <h5> Application </h5>
+                <p> It outlines the subjects or areas to which the rules and regulations of the Act are relevant. This defines the scope of the Act in terms of its practical application. </p>
+            `),
+            amendment : false
+        },
+        {
+            section : `2`,
+            title : `Definitions of various terms used in the Act.`,
+            define : (`
+                <h5> Definitions </h5>
+                <p> Section 2 begins by providing definitions for key terms used throughout the Information Technology Act.
+
+                <h5> Clarity </h5>
+                <p> It aims to bring clarity to the interpretation of the Act by explaining the meanings of specific words or phrases in a legal context.</p>
+
+                <h5> Common Terms </h5>
+                <p> The definitions often cover terms commonly used in the realm of information technology, electronic communication, and cyber law.</p>
+
+                <h5> Interpretation </h5>
+                <p> This section helps in the interpretation of the Act by ensuring that everyone involved understands the intended meanings of the terms used.
+            `),
+            amendment : false
+        },
+        {
+            section : `3`,
+            title : ` Provides legal recognition for electronic records and digital signatures`,
+            define : (`
+                    Controller Appointment: This section usually outlines the appointment of a Controller of Certifying Authorities, who is responsible for overseeing and regulating digital signatures and certification authorities.
+
+    Other Officers: Besides the Controller, the section might mention the appointment of other officers who play roles in the administration and enforcement of the Act.
+
+    Regulatory Framework: It establishes the regulatory framework for digital signatures, aiming to ensure their validity and security in electronic transactions.
+            `),
+            amendment : false
+        },
+        {
+            section : `4`,
+            title : `Legal recognition of electronic contracts.`,
+            define : (`
+                    Legal Recognition: Section 4 typically states that electronic contracts are legally valid and enforceable, similar to traditional paper contracts.
+
+    Electronic Form Acceptance: It establishes that contracts formed through electronic means, such as emails or digital signatures, have the same legal standing as contracts formed through traditional, physical means.
+
+    Intent to Legalize E-Contracts: The section reflects an intent to facilitate and encourage the use of electronic communication and contracts in legal matters.
+            `),
+            amendment : false
+        },
+        {
+            section : `5`,
+            title : `Legal recognition of electronic documents`,
+            define : (`
+                    Legal Validity: Section 5 typically states that electronic documents are recognized as legally valid and have the same legal status as physical documents.
+
+    Electronic Form Acceptance: It establishes that information, records, or documents in electronic form are deemed acceptable in legal proceedings.
+
+    Intent to Promote E-Documentation: The section reflects an intent to encourage the use of electronic documents in various transactions and legal matters.
+            `),
+            amendment : false
+        },
+        {
+            section : null,
+            title : ``,
+            define : (`
+            `),
+            amendment : false
+        },
+        {
+            section : null,
+            title : ``,
+            define : (`
+            `),
+            amendment : false
+        }
+        ,
+        {
+            section : null,
+            title : ``,
+            define : (`
+            `),
+            amendment : false
+        }
+        ,
+        {
+            section : null,
+            title : ``,
+            define : (`
+            `),
+            amendment : false
+        },
+        {
+            section : null,
+            title : ``,
+            define : (`
+            `),
+            amendment : false
+        },
+        {
+            section : null,
+            title : ``,
+            define : (`
+            `),
+            amendment : false
+        },
+        {
+            section : null,
+            title : ``,
+            define : (`
+            `),
+            amendment : false
+        },
+        {
+            section : null,
+            title : ``,
+            define : (`
+            `),
+            amendment : false
+        },
+        {
             section : `43`,
             title : `Penalties and Compensation for Damage to Computer, Computer System, etc.`,
             define : (`
@@ -263,64 +393,39 @@ try
             amendment : false
         },
         {
-            section : ``,
-            title : ``,
+            section : `69`,
+            title : `Interception or Monitoring Power`,
             define : (`
-                <h5> loading </h5>
+                <h5> Power to Intercept </h5>
+                <p> Section 69 grants the government the power to issue directions for the interception or monitoring of information through computer resources. <p>
+                
+                <h5> National Security </h5>
+                <p> This power is often invoked in matters of national security or to prevent certain offenses. </p>
+                
+                <h5> Safeguards </h5>
+                <p> While allowing interception, the section also includes safeguards to ensure that the authority exercises this power lawfully, and it specifies the procedure to be followed. </p>
+                
+                <h5> Secrecy </h5>
+                <p>  Proceedings related to interception directions are typically kept confidential. </p>
+                
             `),
-            amendment : false
+            amendment : true
         },
         {
-            section : ``,
-            title : ``,
+            section : `72`,
+            title : `Breach of Confidentiality`,
             define : (`
-                <h5> loading </h5>
+                <h5> Offense </h5>
+                <p> Section 72 makes it an offense to breach the confidentiality of sensitive personal information. </p>
+                
+                <h5> Unauthorized Disclosure </h5>
+                <p>  It addresses the unauthorized disclosure of personal information that one has access to by virtue of their position. </p>
             `),
-            amendment : false
+            amendment : true
         },
         {
-            section : ``,
-            title : ``,
-            define : (`
-                <h5> loading </h5>
-            `),
-            amendment : false
-        },
-        {
-            section : ``,
-            title : ``,
-            define : (`
-                <h5> loading </h5>
-            `),
-            amendment : false
-        },
-        {
-            section : ``,
-            title : ``,
-            define : (`
-                <h5> loading </h5>
-            `),
-            amendment : false
-        },
-        {
-            section : ``,
-            title : ``,
-            define : (`
-                <h5> loading </h5>
-            `),
-            amendment : false
-        },
-        {
-            section : ``,
-            title : ``,
-            define : (`
-                <h5> loading </h5>
-            `),
-            amendment : false
-        },
-        {
-            section : ``,
-            title : ``,
+            section : `79`,
+            title : `Protection for Intermediaries`,
             define : (`
                 <h5> loading </h5>
             `),
