@@ -81,11 +81,14 @@ try
             section : `3`,
             title : ` Provides legal recognition for electronic records and digital signatures`,
             define : (`
-                    Controller Appointment: This section usually outlines the appointment of a Controller of Certifying Authorities, who is responsible for overseeing and regulating digital signatures and certification authorities.
+                 <h5> Controller Appointment </h5>
+                 <p> This section usually outlines the appointment of a Controller of Certifying Authorities, who is responsible for overseeing and regulating digital signatures and certification authorities.</p>
 
-    Other Officers: Besides the Controller, the section might mention the appointment of other officers who play roles in the administration and enforcement of the Act.
+                <h5>Other Officers</h5>
+                <p> Besides the Controller, the section might mention the appointment of other officers who play roles in the administration and enforcement of the Act.</p>
 
-    Regulatory Framework: It establishes the regulatory framework for digital signatures, aiming to ensure their validity and security in electronic transactions.
+                <h5>Regulatory Framework</h5> 
+                <p>It establishes the regulatory framework for digital signatures, aiming to ensure their validity and security in electronic transactions.</p>
             `),
             amendment : false
         },
@@ -93,11 +96,14 @@ try
             section : `4`,
             title : `Legal recognition of electronic contracts.`,
             define : (`
-                    Legal Recognition: Section 4 typically states that electronic contracts are legally valid and enforceable, similar to traditional paper contracts.
+                <h5> Legal Recognition</h5>
+                <p>Section 4 typically states that electronic contracts are legally valid and enforceable, similar to traditional paper contracts.</p>
 
-    Electronic Form Acceptance: It establishes that contracts formed through electronic means, such as emails or digital signatures, have the same legal standing as contracts formed through traditional, physical means.
+                <h5> Electronic Form Acceptance</h5>
+                <p> It establishes that contracts formed through electronic means, such as emails or digital signatures, have the same legal standing as contracts formed through traditional, physical means.</p>
 
-    Intent to Legalize E-Contracts: The section reflects an intent to facilitate and encourage the use of electronic communication and contracts in legal matters.
+                <h5> Intent to Legalize E-Contracts</h5>
+                <p> The section reflects an intent to facilitate and encourage the use of electronic communication and contracts in legal matters.</p>
             `),
             amendment : false
         },
@@ -105,70 +111,155 @@ try
             section : `5`,
             title : `Legal recognition of electronic documents`,
             define : (`
-                    Legal Validity: Section 5 typically states that electronic documents are recognized as legally valid and have the same legal status as physical documents.
+                <h5> Legal Validity</h5>
+                <p> Section 5 typically states that electronic documents are recognized as legally valid and have the same legal status as physical documents.</p>
 
-    Electronic Form Acceptance: It establishes that information, records, or documents in electronic form are deemed acceptable in legal proceedings.
+                <h5> Electronic Form Acceptance</h5>
+                <p>It establishes that information, records, or documents in electronic form are deemed acceptable in legal proceedings.</p>
 
-    Intent to Promote E-Documentation: The section reflects an intent to encourage the use of electronic documents in various transactions and legal matters.
+                <h5>Intent to Promote E-Documentation</h5>
+                <p>The section reflects an intent to encourage the use of electronic documents in various transactions and legal matters.</p>
             `),
             amendment : false
         },
         {
-            section : null,
-            title : ``,
+            section : '6',
+            title : `Use of electronic records and digital signatures in Government and its agencies`,
             define : (`
+                    Government Recognition: Section 6 typically indicates that electronic records and digital signatures are recognized and accepted by the government for official transactions.
+
+    Digital Signatures Validity: It establishes the legal validity of digital signatures in government-related communications and documentation.
+
+    Encouragement of E-Governance: The section reflects an intent to promote the use of electronic records and digital signatures in government processes, contributing to the development of e-governance.
             `),
             amendment : false
         },
         {
-            section : null,
-            title : ``,
+            section :`7`,
+            title : `Retention of electronic records`,
             define : (`
+                Retention Requirement: Section 7 typically outlines the obligation to retain electronic records for a certain period.
+
+    Preservation of Records: It may specify the duration for which electronic records need to be preserved, ensuring their availability for legal or regulatory purposes.
+
+    Compliance with Standards: The section may prescribe standards or procedures to be followed for the retention of electronic records.
             `),
             amendment : false
         }
         ,
         {
-            section : null,
-            title : ``,
+            section : `8`,
+            title : `Publication of rules, regulations, and bye-laws in electronic form`,
             define : (`
+                Electronic Publication: Section 8 typically addresses the method by which rules, regulations, or bye-laws can be officially published.
+
+    Acceptance of Electronic Form: It establishes that the electronic form of publication is recognized as valid, ensuring that digital versions of official documents have legal standing.
+
+    Promotion of E-Governance: The section may align with the broader goal of promoting e-governance by encouraging the use of electronic formats for official publications.
             `),
             amendment : false
         }
         ,
         {
-            section : null,
-            title : ``,
+            section : `9`,
+            title : `Sections 6, 7, and 8 to apply for the purpose of the IT Act`,
             define : (`
+                Scope of Application: Section 9 typically defines the areas or subjects to which the provisions of the Information Technology Act apply.
+
+    Clarification of Applicability: It may clarify the circumstances or entities covered by the Act, ensuring a clear understanding of its scope.
+
+    Consistency in Application: The section helps in providing a consistent and standardized application of the law to relevant scenarios.
             `),
             amendment : false
         },
         {
-            section : null,
-            title : ``,
+            section : '10',
+            title : `Power to make rules by the appropriate government`,
             define : (`
+                Rule-Making Authority: Section 10 typically grants the appropriate government the authority to make rules under the Information Technology Act.
+
+    Delegated Legislation: It empowers the government to create detailed regulations or rules to supplement and implement the broader provisions of the Act.
+
+    Flexibility: The section provides flexibility for the government to adapt and specify procedural details, standards, or requirements as needed.
             `),
             amendment : false
         },
         {
-            section : null,
-            title : ``,
+            section : `11`,
+            title : `Power to make rules by the Central Government in respect of digital signature`,
             define : (`
+                Rule-Making Authority Specific to Digital Signatures: Section 11 typically grants the Central Government the authority to make rules specifically related to digital signatures.
+
+    Regulation of Digital Signature: It empowers the government to establish detailed regulations, standards, or procedures concerning the use, verification, and management of digital signatures.
+
+    Ensuring Security and Validity: The section aims to ensure the security and legal validity of digital signatures by providing a framework for their proper use.
             `),
             amendment : false
         },
         {
-            section : null,
-            title : ``,
+            section : `12`,
+            title : `Directions for interception or monitoring or decryption of information`,
             define : (`
+                Government Authority: Section 12 typically outlines the authority of the government to issue directions for interception, monitoring, or decryption of electronic information.
+
+    National Security or Public Order: The section may specify that such directions can be given in the interest of national security, defense, or maintaining public order.
+
+    Lawful Process: It may outline the legal process and conditions under which these actions can be taken to ensure compliance with constitutional and legal principles.
             `),
             amendment : false
         },
         {
-            section : null,
-            title : ``,
+            section : `13`,
+            title : `Penalty for improper use of the unique identification feature`,
             define : (`
+                Protection of Unique Identification Feature: Section 13 typically addresses the misuse or improper use of a unique identification feature.
+
+    Legal Consequences: It may specify penalties or legal consequences for individuals or entities found guilty of misusing or improperly using unique identification features defined under the Act.
+
+    Deterrence Against Misuse: The section aims to deter and penalize actions that compromise the integrity or misuse unique identification elements.
             `),
+            amendment : false
+        },
+        {
+            section : `14`,
+            title : `Power to delegate`,
+            define : (``),
+            amendment : false
+        },
+        {
+            section : `15`,
+            title : `Amendment of Act 45 of 1860`,
+            define : (``),
+            amendment : false
+        },
+        {
+            section : `16`,
+            title : `Act to apply for offences or contraventions committed outside India`,
+            define : (``),
+            amendment : false
+        },
+        {
+            section : `17`,
+            title : `Power of the Central Government to take measures to regulate public key`,
+            define : (``),
+            amendment : false
+        },
+        {
+            section : `18`,
+            title : `Digital Signature Certificates with Controller's approval`,
+            define : (``),
+            amendment : false
+        },
+        {
+            section : `19`,
+            title : `Certifying Authority to follow certain procedures`,
+            define : (``),
+            amendment : false
+        },
+        {
+            section : `20`,
+            title : `Controller to act as repository`,
+            define : (``),
             amendment : false
         },
         {
