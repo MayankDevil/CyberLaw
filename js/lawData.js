@@ -126,11 +126,14 @@ try
             section : '6',
             title : `Use of electronic records and digital signatures in Government and its agencies`,
             define : (`
-                    Government Recognition: Section 6 typically indicates that electronic records and digital signatures are recognized and accepted by the government for official transactions.
+                <h5> Government Recognition </h5>
+                <p> Section 6 typically indicates that electronic records and digital signatures are recognized and accepted by the government for official transactions.</p>
 
-    Digital Signatures Validity: It establishes the legal validity of digital signatures in government-related communications and documentation.
+                <h5>Digital Signatures Validity</h5>
+                <p>It establishes the legal validity of digital signatures in government-related communications and documentation.</p>
 
-    Encouragement of E-Governance: The section reflects an intent to promote the use of electronic records and digital signatures in government processes, contributing to the development of e-governance.
+                <h5>Encouragement of E-Governance</h5>
+                <p>The section reflects an intent to promote the use of electronic records and digital signatures in government processes, contributing to the development of e-governance.</p>
             `),
             amendment : false
         },
@@ -138,11 +141,14 @@ try
             section :`7`,
             title : `Retention of electronic records`,
             define : (`
-                Retention Requirement: Section 7 typically outlines the obligation to retain electronic records for a certain period.
+                <h5>Retention Requirement</h5>
+                <p>Section 7 typically outlines the obligation to retain electronic records for a certain period.</p>
 
-    Preservation of Records: It may specify the duration for which electronic records need to be preserved, ensuring their availability for legal or regulatory purposes.
+                <h5>Preservation of Records</h5>
+                <p>It may specify the duration for which electronic records need to be preserved, ensuring their availability for legal or regulatory purposes.</p>
 
-    Compliance with Standards: The section may prescribe standards or procedures to be followed for the retention of electronic records.
+                <h5>Compliance with Standards</h5>
+                <p>The section may prescribe standards or procedures to be followed for the retention of electronic records.</p>
             `),
             amendment : false
         }
@@ -151,11 +157,14 @@ try
             section : `8`,
             title : `Publication of rules, regulations, and bye-laws in electronic form`,
             define : (`
-                Electronic Publication: Section 8 typically addresses the method by which rules, regulations, or bye-laws can be officially published.
+                <h5> Electronic Publication</h5>
+                <p>Section 8 typically addresses the method by which rules, regulations, or bye-laws can be officially published.</p>
 
-    Acceptance of Electronic Form: It establishes that the electronic form of publication is recognized as valid, ensuring that digital versions of official documents have legal standing.
+                <h5>Acceptance of Electronic Form</h5>
+                <p>It establishes that the electronic form of publication is recognized as valid, ensuring that digital versions of official documents have legal standing.</p>
 
-    Promotion of E-Governance: The section may align with the broader goal of promoting e-governance by encouraging the use of electronic formats for official publications.
+                <h5>Promotion of E-Governance</h5>
+                <p>The section may align with the broader goal of promoting e-governance by encouraging the use of electronic formats for official publications.</p>
             `),
             amendment : false
         }
@@ -164,11 +173,14 @@ try
             section : `9`,
             title : `Sections 6, 7, and 8 to apply for the purpose of the IT Act`,
             define : (`
-                Scope of Application: Section 9 typically defines the areas or subjects to which the provisions of the Information Technology Act apply.
+                <h5>Scope of Application</h5>
+                <p>Section 9 typically defines the areas or subjects to which the provisions of the Information Technology Act apply.</p>
 
-    Clarification of Applicability: It may clarify the circumstances or entities covered by the Act, ensuring a clear understanding of its scope.
+                <h5>Clarification of Applicability</h5>
+                <p>It may clarify the circumstances or entities covered by the Act, ensuring a clear understanding of its scope.</p>
 
-    Consistency in Application: The section helps in providing a consistent and standardized application of the law to relevant scenarios.
+                <h5>Consistency in Application</h5>
+                <p>The section helps in providing a consistent and standardized application of the law to relevant scenarios.</p>
             `),
             amendment : false
         },
@@ -176,11 +188,14 @@ try
             section : '10',
             title : `Power to make rules by the appropriate government`,
             define : (`
-                Rule-Making Authority: Section 10 typically grants the appropriate government the authority to make rules under the Information Technology Act.
+                <h5>Rule-Making Authority</h5>
+                <p>Section 10 typically grants the appropriate government the authority to make rules under the Information Technology Act.</p>
 
-    Delegated Legislation: It empowers the government to create detailed regulations or rules to supplement and implement the broader provisions of the Act.
+                <h5>Delegated Legislation</h5>
+                <p>It empowers the government to create detailed regulations or rules to supplement and implement the broader provisions of the Act.</p>
 
-    Flexibility: The section provides flexibility for the government to adapt and specify procedural details, standards, or requirements as needed.
+                <h5>Flexibility</h5>
+                <p>The section provides flexibility for the government to adapt and specify procedural details, standards, or requirements as needed.</p>
             `),
             amendment : false
         },
@@ -188,11 +203,14 @@ try
             section : `11`,
             title : `Power to make rules by the Central Government in respect of digital signature`,
             define : (`
-                Rule-Making Authority Specific to Digital Signatures: Section 11 typically grants the Central Government the authority to make rules specifically related to digital signatures.
+                <h5>Rule-Making Authority Specific to Digital Signatures<?h5>
+                <p>Section 11 typically grants the Central Government the authority to make rules specifically related to digital signatures.</p>
 
-    Regulation of Digital Signature: It empowers the government to establish detailed regulations, standards, or procedures concerning the use, verification, and management of digital signatures.
+                <h5>Regulation of Digital Signature<h5>
+                <p>It empowers the government to establish detailed regulations, standards, or procedures concerning the use, verification, and management of digital signatures.</p>
 
-    Ensuring Security and Validity: The section aims to ensure the security and legal validity of digital signatures by providing a framework for their proper use.
+                <h5>Ensuring Security and Validity</h5>
+                <p>The section aims to ensure the security and legal validity of digital signatures by providing a framework for their proper use.</p>
             `),
             amendment : false
         },
@@ -200,11 +218,14 @@ try
             section : `12`,
             title : `Directions for interception or monitoring or decryption of information`,
             define : (`
-                Government Authority: Section 12 typically outlines the authority of the government to issue directions for interception, monitoring, or decryption of electronic information.
+                <h5>Government Authority</h5>
+                <p>Section 12 typically outlines the authority of the government to issue directions for interception, monitoring, or decryption of electronic information.</p>
 
-    National Security or Public Order: The section may specify that such directions can be given in the interest of national security, defense, or maintaining public order.
+                <h5>National Security or Public Order</h5>
+                <p>The section may specify that such directions can be given in the interest of national security, defense, or maintaining public order.</p>
 
-    Lawful Process: It may outline the legal process and conditions under which these actions can be taken to ensure compliance with constitutional and legal principles.
+                <h5>Lawful Process</h5>
+                <p>It may outline the legal process and conditions under which these actions can be taken to ensure compliance with constitutional and legal principles.</p>
             `),
             amendment : false
         },
@@ -212,11 +233,14 @@ try
             section : `13`,
             title : `Penalty for improper use of the unique identification feature`,
             define : (`
-                Protection of Unique Identification Feature: Section 13 typically addresses the misuse or improper use of a unique identification feature.
+                <h5>Protection of Unique Identification Feature</h5>
+                <p>Section 13 typically addresses the misuse or improper use of a unique identification feature.</p>
 
-    Legal Consequences: It may specify penalties or legal consequences for individuals or entities found guilty of misusing or improperly using unique identification features defined under the Act.
+                <h5>Legal Consequences<h5>
+                <p>It may specify penalties or legal consequences for individuals or entities found guilty of misusing or improperly using unique identification features defined under the Act.</p>
 
-    Deterrence Against Misuse: The section aims to deter and penalize actions that compromise the integrity or misuse unique identification elements.
+                <h5>Deterrence Against Misuse</h5>
+                <p>The section aims to deter and penalize actions that compromise the integrity or misuse unique identification elements.</p>
             `),
             amendment : false
         },

@@ -8,21 +8,46 @@ try
 {
     function detailLayout(data)
     {
-        return (`
-            <details>
+        if (data.define == ``)
+        {
+            consloe.warning(`Master section ${data.section} is out of service`)
+            
+            return (`
+                <details>
 
-                <summary>
+                    <summary>
 
-                    <div class="section"> SECTION-${data.section} </div>
+                        <div class="section"> SECTION-${data.section} </div>
 
-                    <div class="title"> ${data.title} </div>
+                        <div class="title"> ${data.title} </div>
 
-                </summary>
+                    </summary>
 
-                <div class="define"> ${data.define} </div>
+                    <div class="define">
+                        <a href="https://mayankdevil.github.io/myData/bug.html" target="_self" title="click to check out" class="alert_message"> wait for loading ... </a>
+                    </div>
 
-            </details>
-        `)
+                </details>
+            `)
+        }
+        else
+        {
+            return (`
+                <details>
+
+                    <summary>
+
+                        <div class="section"> SECTION-${data.section} </div>
+
+                        <div class="title"> ${data.title} </div>
+
+                    </summary>
+
+                    <div class="define"> ${data.define} </div>
+
+                </details>
+            `)
+        }
     }
 }
 catch (error)
