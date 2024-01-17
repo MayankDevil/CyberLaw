@@ -25,21 +25,30 @@ try
         =================================================================================
     */
 
-    let search = document.getElementById("bar");
+    let search = document.getElementById("bar")
 
-    let data_list = document.querySelectorAll("details");
+    let data_list = document.querySelectorAll("#act_container details")
 
     search.onkeyup = () =>
-    {
-        for(var i=0; i < CyberLawData.length; i++)
+    {        
+        for(var i = 0; i < data_list.length; i++)
         {
-			search_Data.toUpperCase(search.value);
-			
-            var data = data_list[i].innerHTML;
+            let data = data_list[i].firstElementChild
             
-            data_list[i].style.display = (data.toUpperCase().indexOf(search.value) > -1)? 1 : 0;
+            data = data.firstElementChild.innerHTML + data.lastElementChild.innerHTML
             
-            if(search.value == 1)  data_list[i].style.display = '';
+            data = data.toUpperCase() // final data pick
+            
+            /* if search value inner words match with data than display block else none */
+            
+            if (data.indexOf(search.value.toUpperCase()) > -1)
+            {
+                data_list[i].style.display = 'block'             
+            }
+            else
+            {
+                data_list[i].style.display = 'none'
+            }
         }
     }
     
