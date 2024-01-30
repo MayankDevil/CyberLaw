@@ -8,7 +8,7 @@ try
 {
     function detailLayout(data)
     {
-        if (data.define == ``)
+        if (data.define == ` `)
         {
             consloe.warning(`Master section ${data.section} is out of service`)
             
