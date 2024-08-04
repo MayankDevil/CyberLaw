@@ -6,53 +6,82 @@
 */
 try
 {
-    /*
-        ---------------------------------------------------------------------------------
-        | looped data set in layout                                                     |
-        ---------------------------------------------------------------------------------
-    */
+    window.addEventListener('scroll',() => {
 
-    let act_container = document.getElementById('act_container')
-    
-    CyberLawData.forEach((data) => {
-        act_container.insertAdjacentHTML('beforeend',`${detailLayout(data)}`)    
+        let searchIcon =document.getElementById('search_icon')
+
+        let afterSpan = document.getElementsByClassName('after')[0]
+        
+        let beforeSpan = document.getElementsByClassName('before')[0]
+
+        let image = document.getElementsByClassName('image')
+
+        let headerLead = document.querySelectorAll('header .lead')[0]
+
+        let amendment = document.getElementById('amendment')
+
+        let amendmentPosition = amendment.getBoundingClientRect().top
+
+        let headerLeadPosition = headerLead.getBoundingClientRect().top
+
+        let borderLeftPosition = document.getElementsByClassName('border-left')[0].getBoundingClientRect().top
+        
+        let screenPosition = window.innerHeight;
+
+        if (100 < screenPosition)
+        {
+            searchIcon.classList.add('activeSearch')
+            searchIcon.innerText = null
+        }
+
+        if (headerLeadPosition < screenPosition)
+        {        
+            headerLead.classList.add('zooming')
+        }
+        else
+        {
+            headerLead.classList.remove('zooming')
+        }
+
+        if (amendmentPosition < screenPosition)
+        {
+            amendment.lastElementChild.classList.add('zooming')
+        }
+        else
+        {
+            amendment.lastElementChild.classList.remove('zooming')
+        }
+
+        if (borderLeftPosition < screenPosition)
+        {
+            beforeSpan.classList.add('active_btn')
+            afterSpan.classList.add('active_btn')
+        }
+        else
+        {
+            beforeSpan.classList.remove('active_btn')
+            afterSpan.classList.remove('active_btn')
+        }
+
+        if (10 < screenPosition)
+        {
+            for (let i = 0; i < image.length; i++)
+                image[i].classList.add(`active_image${i+1}`)
+        }
+        else
+        {
+            for (let i = 0; i < image.length; i++)
+                image[i].classList.remove(`active_image${i+1}`)
+        }
+
     });
 
 
-    /*
-        =================================================================================
-        } Search Bar Function : on key press check detail summary inner data with value
-        =================================================================================
-    */
-
-    let search = document.getElementById("bar")
-
-    let data_list = document.querySelectorAll("#act_container details")
-
-    search.onkeyup = () =>
-    {        
-        for(var i = 0; i < data_list.length; i++)
-        {
-            let data = data_list[i].firstElementChild
-            
-            data = data.firstElementChild.innerHTML + data.lastElementChild.innerHTML
-            
-            data = data.toUpperCase() // final data pick
-            
-            /* if search value inner words match with data than display block else none */
-            
-            if (data.indexOf(search.value.toUpperCase()) > -1)
-            {
-                data_list[i].style.display = 'block'             
-            }
-            else
-            {
-                data_list[i].style.display = 'none'
-            }
-        }
-    }
     
-    /*  ==============================================================================  */ 
+    console.log(`\n----------- readme -----------\n
+    \n\tLEAVE ME HERE\n
+    \n------------------------------
+    \nDesigned | Developed by Mayank`)
 }
 catch(error)
 {

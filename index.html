@@ -6,6 +6,7 @@
 -   HTML : ./index.html
 -->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,10 +17,11 @@
         | style |
         ---------
     -->
+    <link rel="stylesheet" href="assets/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
+
 <body>
     <!--
         -----------------------------------------------------------------
@@ -34,44 +36,56 @@
         -->
         <header id="header">
             <div class="container">
+                <!-- ( nav ) -->
+                <nav id="nav">
+                    
+                    <div id="brandname"> Cyber Law | IT Amendment Act 2008 </div>
+
+                    <span class="line"></span>
+                    <!-- ( social media ) -->
+                    <div id="social">
+
+                        <a href="https://github.com/MayankDevil/" title="Github MayankDevil" target="_blank" class="media"> <span class="bi bi-github"></span> </a>
+                        <a href="https://www.linkedin.com/in/MasterMayank/" title="LinkedIn MasterMayank" target="_blank" class="media"> <span class="bi bi-linkedin"></span></a>
+                        <a href="https://mastermayank.w3spaces.com/" title="Developer Mayank" target="_blank" class="media"> <span class="bi bi-person-circle"></span> </a>
+                    
+                    </div>
+                    <!-- ( search button ) -->
+                    <a href="./app.html" title="Search It Act" class="bi bi-search" id="search_icon"> <span>Search</span> </a>
+
+                </nav>
+
                 <div class="row">
-                    <!-- ( justice goddes image  ) -->
-                    <div class="col">
-
-                        <img src="data/NyayaKiDevi.png" alt="NyayaKiDevi" title="NyayaKiDevi" class="image">
-
+                    <!-- ( picture ) -->
+                    <div id="picture">
+                        <img src="./data/pic/NyayaKiDevi.png" alt="" class="image">
+                        <img src="./data/pic/NyayaKiDevi.png" alt="" class="image">
+                        <img src="./data/pic/NyayaKiDevi.png" alt="" class="image">
+                        <img src="./data/pic/NyayaKiDevi.png" alt="" class="image">
                     </div>
-                    <!-- ( introduction about cyber law ) -->
-                    <div class="col">
-
-                        <h1> CYBER LAW </h1>
-
-                        <h2>  IT Amendment act 2008 </h2>
-
-                        <p> The Information Technology (Amendment) Act, 2008 is an amendment to the Information Technology Act, 2000 in India. This amendment was introduced to address emerging challenges and technological advancements in the field of information technology. The primary objective was to enhance the legal framework for electronic transactions, digital signatures, and cybercrimes. </p>
-
-                        <a href="data/IT_act.pdf" target="_blank" title="IT ACT PDF free download" download="IT_act.pdf" class="btn"> Download PDF &DownArrowBar; </a>
-
-                        <a href="#search" title="on Click Search Sections" class="outline-btn"> Search &#9010; </a>
-
-                        <!-- ( social media link-icon ) -->
-                        <div id="social">
-                            
-                            <a href="https://github.com/MayankDevil/" title="github" target="_blank" class="media">
-                                <img src="data/logo/github.png" alt="github" class="link-icon">
-                            </a>
-                            <a href="https://github.com/MayankDevil/" title="linkedin" target="_blank" class="media">
-                                <img src="data/logo/linkedin.png" alt="github" class="link-icon">
-                            </a>
-                            <a href="https://github.com/MayankDevil/" title="developer" target="_blank" class="media">
-                                <img src="data/logo/user.png" alt="developer" class="link-icon">
-                            </a>
-
-                        </div>
-
-                    </div>
+                    <!-- ( dsiplay 1 ) -->
+                    <div class="display-1"> Cyber Law </div>
 
                 </div>
+                
+                <!-- ( download button ) -->
+                <div class="border-left">
+                    <a href="./data/pdf/It_act.pdf" target="_blank" title="It Amendment Act 2008" download="IT_act.pdf" class="" id="download_btn"> <span class="before"></span> <span class="bi bi-file-pdf"></span> Download PDF <div class="after"></div> </a>
+                </div>
+
+                <div>
+                    <h1 class="band">IT Amendment act 2008</h1>
+                    
+                    <h6 class="lead">The Information Technology (Amendment) Act, 2008 is an amendment to the Information
+                        Technology Act, 2000 in India. This amendment was introduced to address emerging challenges
+                        and technological advancements in the field of information technology. The primary objective
+                        was to enhance the legal framework for electronic transactions, digital signatures, and
+                        cybercrimes.</h6>
+                        
+                </div>
+                
+                <div class="vh5"></div>
+
             </div>
         </header>
         <!--
@@ -79,58 +93,335 @@
             [ Require section ]-----------------------------------------------------
             ===================
         -->
-        <section id="require">
-            <div class="container">
-                <div class="row">
-                    <!-- ( role point list ) -->
-                    <div class="col">
-                        <!-- ( heading ) -->
-                        <div class="heading">
+        <section id="require_section">
+            <div class="container frame">
+                
+                <!-- ( sticky column ) -->
+                <div class="col sticky">
+    
+                    <h1> 01. </h1>
+                    <h2> Why Cyber Law? </h2>
+                    <p> why we are require this cyber law? </p>
+    
+                </div>
+                <!-- ( column ) -->
+                <div class="col">
+                    <!-- ( requirement point list ) -->
+                    <ul class="pointlist">
+                        <li>
+                            <h2> Enabling Digital Transactions </h2>
+                            <p> Provides a legal framework for electronic transactions and digital signatures. </p>
+                        </li>
 
-                            <h2> Why IT Act </h2>
+                        <li>
+                            <h2> Ensuring Data Protection </h2>
+                            <p> Sets rules to safeguard personal information in the digital space. </p>
+                        </li>
 
-                            <h4> why we are require this cyber law? </h4>
-                        
-                        </div>
-                        <ul class="pointlist">
+                        <li>
+                            <h2> Combating Cybercrimes </h2>
+                            <p> Addresses offenses related to unauthorized access and various cybercrimes. </p>
+                        </li>
 
-                            <li>
-                                <h3> Enabling Digital Transactions </h3>
-                                <p> Provides a legal framework for electronic transactions and digital signatures. </p>
-                            </li>
-        
-                            <li>
-                                <h3> Ensuring Data Protection </h3>
-                                <p> Sets rules to safeguard personal information in the digital space. </p>
-                            </li>
-        
-                            <li>
-                                <h3> Combating Cybercrimes </h3>
-                                <p> Addresses offenses related to unauthorized access and various cybercrimes. </p>
-                            </li>
-        
-                            <li>
-                                <h3> Facilitating E-Governance </h3>
-                                <p> Supports electronic governance and legal recognition of digital documents. </p>
-                            </li>
-        
-                            <li>
-                                <h3> Defining Penalties </h3>
-                                <p> Specifies punishments for cyber offenses to deter unlawful activities. </p>
-                            </li>
-        
-                        </ul>
+                        <li>
+                            <h2> Facilitating E-Governance </h2>
+                            <p> Supports electronic governance and legal recognition of digital documents. </p>
+                        </li>
+
+                        <li>
+                            <h2> Defining Penalties </h2>
+                            <p> Specifies punishments for cyber offenses to deter unlawful activities. </p>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </section>
+        <!--
+            =================
+            [ amend section ]-----------------------------------------------------
+            =================
+        -->
+        <section id="amend_section">
+            <div class="container frame">
+                
+                <!-- ( sticky column ) -->
+                <div class="col sticky">
+    
+                    <h1> 02. </h1>
+                    <h2> Amend 2008? </h2>
+                    <p> Changes After the IT Act 2008 Amendments </p>
+    
+                </div>
+                <!-- ( column ) -->
+                <div class="col">
+                    <!-- ( amedndment article ) -->
+                    <div id="amendment">
+
+                        <h3> IT ACT 2000 to Amendment 2008 </h3>
+
+                        <h6> The IT Act refers to the Information Technology Act, 2000 in India. It was enacted to
+                            provide legal recognition for electronic transactions, facilitate e-governance, and
+                            address cybercrimes. In 2008, amendments were introduced to adapt the law to evolving
+                            technological challenges. The amendments focused on aspects like data protection, cyber
+                            security, increased penalties for offenses, and clarifications regarding the liability
+                            of intermediaries. The Information Technology (Amendment) Act, 2008 aimed to strengthen
+                            the legal framework for electronic activities and better address issues arising in the
+                            digital domain. </h6>
+                            
                     </div>
-                    <!-- ( IT ACT 2000 to Amendment  2008 ) -->
-                    <div class="col">
-                        <article id="amendment">
+                    <!-- ( amendment list ) -->
+                    <ol>
+                        <li><b>Enhance Cybersecurity</b>: Tougher rules against cybercrime.</li>
+                        <li><b>Update Digital Signatures</b>: Better standards for secure online transactions.</li>
+                        <li><b>Improve Data Management</b>: Clearer rules on handling electronic records.</li>
+                        <li><b>Protect Privacy</b>: Stricter data protection measures.</li>
+                        <li><b>Expand Jurisdiction</b>: Cover new digital activities.</li>
+                        <li><b>Support E-Governance</b>: Strengthen online government services.</li>
+                    </ol>
+                    <!-- ( amendment frame ) -->
+                    <div id="amendmentFrame"></div>
 
-                            <h3> IT ACT 2000 to Amendment  2008 </h3>
+                </div>
 
-                            <p> The IT Act refers to the Information Technology Act, 2000 in India. It was enacted to provide legal recognition for electronic transactions, facilitate e-governance, and address cybercrimes. In 2008, amendments were introduced to adapt the law to evolving technological challenges. The amendments focused on aspects like data protection, cyber security, increased penalties for offenses, and clarifications regarding the liability of intermediaries. The Information Technology (Amendment) Act, 2008 aimed to strengthen the legal framework for electronic activities and better address issues arising in the digital domain. </p>
+            </div>
+        </section>
+        <!--
+            ==================
+            [ rights section ]-----------------------------------------------------
+            ==================
+        -->
+        <section id="rights_section">
+            <div class="container frame">
+                
+                <!-- ( sticky column ) -->
+                <div class="col sticky">
+    
+                    <h1> 03. </h1>
+                    <h2> User Right? </h2>
+                    <p> Data Protection Rights Under the IT Act, 2008 </p>
+    
+                </div>
+                <!-- ( column ) -->
+                <div class="col">
+                    <!-- ( right list ) -->
+                    <ol id="right_list">
+                        <li>
+                            <h2>Right to Privacy </h2>
+                            <p><b>What It Means:</b> Your personal information should be kept private and secure.</p>
+                            <p><b>What Organizations Must Do:</b> They must protect your data and not use it without your permission.</p>
+                            <div class="vh5"></div>
+                        </li>
+                        <li>
+                            <h2>Right to Data Protection </h2>
+                            <p><b>What It Means:</b> Your personal data must be protected from unauthorized use and breaches.</p>
+                            <p><b>What Organizations Must Do:</b> They need to use security measures to keep your data safe.</p>
+                            <div class="vh5"></div>
+                        </li>
+                        <li>
+                            <h2>Right to Access </h2>
+                            <p><b>What It Means:</b> You can see what personal information an organization has about you.</p>
+                            <p><b>What Organizations Must Do:</b> They should allow you to request and view your data.</p>
+                            <div class="vh5"></div>
+                        </li>
+                        <li>
+                            <h2>Right to Correction </h2>
+                            <p><b>What It Means:</b> If your personal information is wrong or outdated, you can ask to have it corrected.</p>
+                            <p><b>What Organizations Must Do:</b> They must correct any inaccurate or incomplete data when you request it.</p>
+                            <div class="vh5"></div>
+                        </li>
+                        <li>
+                            <h2>Right to Deletion </h2>
+                            <p><b>What It Means:</b> You can ask to have your personal data deleted from an organization’s records.</p>
+                            <p><b>What Organizations Must Do:</b> They should delete your data if you ask, unless they are legally required to keep it.</p>
+                            <div class="vh5"></div>
+                        </li>
+                        <li>
+                            <h2>Right to Information </h2>
+                            <p><b>What It Means:</b> You have the right to know why and how your data is being collected and used.</p>
+                            <p><b>What Organizations Must Do:</b> They need to clearly explain their data collection practices.</p>
+                            <div class="vh5"></div>
+                        </li>
+                        <li>
+                            <h2>Right to Redress </h2>
+                            <p><b>What It Means:</b> If your data privacy rights are violated, you can seek help and file complaints.</p>
+                            <p><b>What Organizations Must Do:</b> They must provide a way for you to report issues and seek resolution.</p>
+                            <div class="vh5"></div>
+                        </li>
+                        <li>
+                            <h2>Right to Consent </h2>
+                            <p><b>What It Means:</b> Your permission is needed before any organization can collect or use your personal data.</p>
+                            <p><b>What Organizations Must Do:</b> They must get your clear and explicit consent before handling your data, and you can withdraw this consent at any time.</p>
+                            <div class="vh5"></div>
+                        </li>
+                    </ol>
 
-                        </article>
-                    </div>    
+                </div>
+
+            </div>
+        </section>
+        <!--
+            =================
+            [ crime section ]-----------------------------------------------------
+            =================
+        -->
+        <section id="crime_section">
+            <div class="container frame">
+                
+                <!-- ( sticky column ) -->
+                <div class="col sticky">
+    
+                    <h1> 04. </h1>
+                    <h2> How Cyber Crime? </h2>
+                    <p> How is cybercrime increasing </p>
+    
+                </div>
+                <!-- ( column ) -->
+                <div class="col">
+                    <!-- ( chartbox ) -->
+                    <div id="chartbox">
+                        <!-- future -->
+                    </div>
+                    
+                    <div class="vh5"></div>
+                    <!-- ( reson ) -->
+                    <div>
+                        <h2> Reson to increase Cyber Crime </h2>
+                        
+                        <ol>
+                            <li> <h4> Globalization of Network </h4> </li>
+                            <li> <h4> Advancement in Technology </h4> </li>
+                            <li> <h4> Billions of User and Devices </h4> </li>
+                            <li> <h4> Online Transaction </h4> </li>
+                            <li> <h4> Exploited Security Gaps </h4> </li>
+                        </ol>
+                    </div>
+                        
+                    <div class="vh5"></div>
+                    <!-- ( display 2 ) -->
+                    <div class="display-2"> but <span>Responsible<span> </div>
+
+                    <div id="crimeFrame"></div>
+                    
+                    <div class="vh5"></div>
+                    <!-- ( awareness lack ) -->
+                    <div>
+                        <h2> Lack of Awareness </h2>
+                        
+                        <div class="display-3"> Many people and organizations don’t follow good security practices, making them easy targets. </div>
+                        
+                        <ol>
+                            <li> <h4> Set Strong password </h4> </li>
+                            <li> <h4> Lock Your Devices </h4> </li>
+                            <li> <h4> Don't Share Password or OTP </h4> </li>
+                            <li> <h4> Turn on Two-Factor Authentication </h4> </li>
+                            <li> <h4> Backup Your Data </h4> </li>
+                            <li> <h4> Update Software Regularly </h4> </li>
+                            <li> <h4> Use Secure Networks like https </h4> </li>
+                            <li> <h4> Avoid Suspicious Emails and Links </h4> </li>
+                            <li> <h4> Beware to share personal data on Social Media </h4> </li>
+                            <li> <h4> Check Your Accounts Often </h4> </li>
+                        </ol>
+
+                        <h3> before connect to network, enable your mind or after ... </h3>
+                    </div>
+
+                    <div class="vh5"></div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--
+            ==================
+            [ portal section ]-----------------------------------------------------
+            ==================
+        -->
+        <section id="portal_section">
+            <div class="container frame">
+                
+                <div class="vh5"></div>
+                <div class="vh5"></div>
+                
+                <!-- ( display 2 ) -->
+                <div class="border-bottom">
+                    <div class="display-2 band"> if you have </div>
+                    <div class="display-2 band"> more queries about </div>
+                    <div class="display-2 band"> CYBER <span>CRIME</span> </div>
+                </div>
+
+                <div class="vh5"></div>
+
+                <div class="row">
+
+                    <div class="">
+                        <h1> Please </h1>
+                    </div>
+                    <!-- ( column ) -->
+                    <div class="">
+                        <h2> Check out Government Website </h2>
+
+                        <p>Remember, protecting yourself from cybercrime involves not only utilizing such resources but also adopting good cybersecurity habits. This includes using strong, unique passwords, enabling multi-factor authentication, and being cautious of unsolicited communications.</p>
+
+                        <p>To assist you in safeguarding your digital life, the Government of India has established a dedicated platform for reporting and addressing cybercrime</p>
+
+                        <a href="https://www.cybercrime.gov.in/" title=" Government of India against Crime" target="_blank" class="btn" id="gov_btn"> https://www.cybercrime.gov.in/  &nbsp;&nbsp;&nbsp; &RightArrow; </a>
+
+                        <div class="border-bottom"></div>
+                        
+                        <p>  </p>
+                    </div>
+
+                </div>
+
+                <div class="vh5"></div>
+
+            </div>
+        </section>
+        <!--
+            ==================
+            [ aboout section ]-----------------------------------------------------
+            ==================
+        -->
+        <section id="about_section">
+            <div class="container frame">
+                
+                <!-- ( sticky column ) -->
+                <div class="col sticky">
+    
+                    <div class="display-3"> About<span>Me</span> </div>
+    
+                </div>
+                <!-- ( column ) -->
+                <div class="col">
+
+                    <div class="vh5"></div>
+                    
+                    <div>
+
+                        <h2> Vision </h2>
+                        
+                        <p> To enhance awareness about cybercrime and provide comprehensive information on cyber laws, ensuring that individuals and organizations are well-informed and equipped to protect themselves and their assets in the digital world. </p>
+                        <!-- ( about frame ) -->
+                        <div id="aboutFrame"></div>
+                        
+                        <div class="border-bottom"></div>
+                        
+                        <h3> If you like my work, you can follow me. </h3>
+                        
+                        <!-- ( social media ) -->
+                        <div id="social">        
+                            <a href="https://github.com/MayankDevil/" title="Github MayankDevil" target="_blank" class="media"> <span class="bi bi-github"></span> </a>
+                            <a href="https://www.linkedin.com/in/MasterMayank/" title="LinkedIn MasterMayank" target="_blank" class="media"> <span class="bi bi-linkedin"></span></a>
+                            <a href="https://mastermayank.w3spaces.com/" title="Developer Mayank" target="_blank" class="media"> <span class="bi bi-person-circle"></span> </a>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="vh5"></div>
+                    <div class="vh5"></div>
+
                 </div>
 
             </div>
@@ -145,20 +436,30 @@
 
                 <div class="heading">
                     <h2> CopyRight Law </h2>
-                    <h4>  </h4>
+                    <h4> </h4>
                 </div>
 
                 <div class="row">
 
                     <div class="col">
 
-                        <p> Copyright law grants the creator of an original work exclusive rights to its use and distribution. This protection applies to various forms of creative expression, including literature, music, art, and software. The purpose is to encourage innovation and creativity by providing creators with control over how their work is used and by enabling them to benefit financially. </p>
+                        <p> Copyright law grants the creator of an original work exclusive rights to its use and
+                            distribution. This protection applies to various forms of creative expression, including
+                            literature, music, art, and software. The purpose is to encourage innovation and creativity
+                            by providing creators with control over how their work is used and by enabling them to
+                            benefit financially. </p>
 
-                        <p> Key aspects of copyright law typically include the exclusive rights to reproduce, distribute, perform, display, and create derivative works based on the original. Copyright protection is automatic upon the creation of a qualifying work, and it generally lasts for the life of the creator plus a certain number of years. </p>
+                        <p> Key aspects of copyright law typically include the exclusive rights to reproduce,
+                            distribute, perform, display, and create derivative works based on the original. Copyright
+                            protection is automatic upon the creation of a qualifying work, and it generally lasts for
+                            the life of the creator plus a certain number of years. </p>
 
                         <h5> Explicit Copyright </h5>
 
-                        <p> This is the default form of copyright protection that automatically applies to an original work as soon as it is created. The creator doesn't need to register the work or include a copyright notice for it to be protected. Explicit copyright provides the creator with exclusive rights to use and distribute the work. </p>
+                        <p> This is the default form of copyright protection that automatically applies to an original
+                            work as soon as it is created. The creator doesn't need to register the work or include a
+                            copyright notice for it to be protected. Explicit copyright provides the creator with
+                            exclusive rights to use and distribute the work. </p>
 
                     </div>
                     <div class="col">
@@ -166,28 +467,6 @@
                     </div>
 
                 </div>
-
-            </div>
-        </section>
-        <!--
-            ===============
-            [ law section ]-----------------------------------------------------
-            ===============
-        -->
-        <section id="law">
-            <div class="container">
-            <!-- { serach bar } -->
-            <div class="heading" id="search">
-                <input type="search" id="bar" placeholder="Search Cyber Law Section" />
-            </div>
-
-            <div id="act_container">
-                <!--
-                -   target by id #act
-                -   set detailLayout with js
-                -   fetch law data inside layout 
-                -->
-            </div>
 
             </div>
         </section>
@@ -198,8 +477,8 @@
         -->
         <footer id="footer">
             <div class="container">
-                
-                <div class="copy"> CyberLaw &copy; website _ Designed | Developed by <a href="https://mastermayank.w3spaces.com/"> Mayank </a> </div>        
+
+                CyberLaw &copy; website Designed | Developed by <a href="https://mastermayank.w3spaces.com/"> Mayank </a>
 
             </div>
         </footer>
@@ -210,9 +489,7 @@
         | script |
         ----------
     -->
-    <script src="js/lawData.js"></script>
-    <script src="js/detailLayout.js"></script>
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 
